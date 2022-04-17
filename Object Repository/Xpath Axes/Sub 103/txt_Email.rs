@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>email</name>
+   <name>txt_Email</name>
    <tag></tag>
-   <elementGuidId>dd2ac5e6-a583-4416-854a-40c8d2638c23</elementGuidId>
+   <elementGuidId>34ae7f06-b4ca-4c6e-a6ea-345ede7451ea</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//employee[@id = '1']//email</value>
+         <value>//email[contains(text(),'marry@email.com')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

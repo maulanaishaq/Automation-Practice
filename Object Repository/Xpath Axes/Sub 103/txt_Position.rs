@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>id_103</name>
+   <name>txt_Position</name>
    <tag></tag>
-   <elementGuidId>8ee3b8ea-8086-4d80-a3c5-b99e1216c5d4</elementGuidId>
+   <elementGuidId>f9f4aac9-e56d-49f5-a8f1-6f4e89236f0b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//employee[@id = '3']/child::empid</value>
+         <value>//designation[contains(text(),'Application Developer')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +20,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//employee[@id = '3']/child::empid</value>
+      <value>//designation[contains(text(),'Application Developer')]</value>
+      <webElementGuid>d16f6e37-d5f5-42f7-b29d-27a65fdd5660</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

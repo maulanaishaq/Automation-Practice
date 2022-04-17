@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://testautomationpractice.blogspot.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Testing Practice/img_Powered by_svg'))
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 

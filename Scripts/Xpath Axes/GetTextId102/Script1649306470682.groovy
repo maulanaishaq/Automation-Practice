@@ -25,7 +25,7 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(3)
 
-WebUI.verifyElementText(findTestObject('Xpath Axes/id_102'), '102')
+WebUI.verifyElementText(findTestObject('Xpath Axes/txt_id102'), '102')
 
 WebUI.delay(2)
 

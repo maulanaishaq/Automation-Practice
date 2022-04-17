@@ -25,7 +25,7 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(3)
 
-WebUI.dragAndDropToObject(findTestObject('Drag Drop/drag_RectangleTarget'), findTestObject('Drag Drop/drop_Place Rectangle'), 
+WebUI.dragAndDropToObject(findTestObject('Drag Drop/img_RectangleTarget'), findTestObject('Drag Drop/drop_Place Rectangle'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)

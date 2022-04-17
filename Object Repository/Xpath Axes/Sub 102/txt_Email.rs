@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>drag_RectangleTarget</name>
+   <name>txt_Email</name>
    <tag></tag>
-   <elementGuidId>dd8bd3f9-b628-4f8d-9d23-c7b4e58be162</elementGuidId>
+   <elementGuidId>0e006d62-677c-46c2-9879-e0ee5e9cdfa9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id = 'draggable']//p</value>
+         <value>//email[contains(text(),'john@email.com')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

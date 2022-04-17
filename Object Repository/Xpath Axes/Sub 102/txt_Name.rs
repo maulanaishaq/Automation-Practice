@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>name</name>
+   <name>txt_Name</name>
    <tag></tag>
-   <elementGuidId>6e219b30-b7a5-4cc2-9435-2dbd22cb0b9c</elementGuidId>
+   <elementGuidId>1e5a8fe7-a71f-4bf6-9b9a-ab583f1b8de2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//name[contains(text(),'David')]</value>
+         <value>//name[contains(text(),'John')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>id_102</name>
+   <name>img_RectangleTarget</name>
    <tag></tag>
-   <elementGuidId>b1b08086-945a-4e20-bf2b-ae87ebf414c9</elementGuidId>
+   <elementGuidId>dd8bd3f9-b628-4f8d-9d23-c7b4e58be162</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//empid[text() = '102']</value>
+         <value>//div[@id = 'draggable']//p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

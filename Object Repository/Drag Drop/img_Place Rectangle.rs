@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Slider</name>
+   <name>img_Place Rectangle</name>
    <tag></tag>
-   <elementGuidId>0969a261-5dca-40b3-a276-37c2568e2896</elementGuidId>
+   <elementGuidId>7cdf9e66-ba0c-4b3f-b8f6-03a12af4f2e5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id = 'slider']//span</value>
+         <value>//div[@id = 'droppable']//p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

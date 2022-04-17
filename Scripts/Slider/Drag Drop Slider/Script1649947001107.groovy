@@ -25,7 +25,7 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.delay(3)
 
-WebUI.dragAndDropByOffset(findTestObject('Slider/span_Slider'), 80, 0)
+WebUI.dragAndDropByOffset(findTestObject('Slider/button_Slider'), 80, 0)
 
 WebUI.delay(5)
 

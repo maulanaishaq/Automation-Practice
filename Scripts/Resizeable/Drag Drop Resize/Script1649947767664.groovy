@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://testautomationpractice.blogspot.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Testing Practice/div_Resizable_ui-resizable-handle ui-resiza_9242df'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(5)
 

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>drop_Place Rectangle</name>
+   <name>txt_Id102</name>
    <tag></tag>
-   <elementGuidId>7cdf9e66-ba0c-4b3f-b8f6-03a12af4f2e5</elementGuidId>
+   <elementGuidId>b1b08086-945a-4e20-bf2b-ae87ebf414c9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id = 'droppable']//p</value>
+         <value>//empid[text() = '102']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
