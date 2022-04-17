@@ -27,8 +27,20 @@ WebUI.delay(3)
 
 WebUI.doubleClick(findTestObject('Double Click/btn_Copy Text'))
 
-WebUI.delay(3)
 
-value = WebUI.getText(findTestObject('Double Click/txt_Field1'))
+String expectedResut = WebUI.getAttribute(findTestObject('Double Click/txt_Field1'), 'value')
 
-System.out.println(value+"*******")
+System.out.println("Isinya input 1" + expectedResut)
+
+WebUI.delay(2)
+
+String actualResult = WebUI.getAttribute(findTestObject('Double Click/txt_Field2'), 'value')
+
+System.out.println("isinya input 2 " + actualResult)
+
+WebUI.delay(2)
+
+WebUI.verifyMatch(actualResult, expectedResut, false)
+
+WebUI.closeBrowser()
+
