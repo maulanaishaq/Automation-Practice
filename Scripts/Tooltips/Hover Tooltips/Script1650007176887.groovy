@@ -27,10 +27,13 @@ WebUI.delay(3)
 
 WebUI.mouseOver(findTestObject('Tooltips/txt_Tooltips'))
 
-WebUI.delay(3)
+String actual = WebUI.getText(findTestObject('Tooltips/txt_Tooltips'))
 
-String actual = WebUI.getAttribute(findTestObject('Tooltips/txt_Tooltips'), 'title')
+System.out.println("isinya ini *** " + actual)
+
 String expected = "We ask for your age only for statistical purposes."
-WebUI.verifyMatch(actual, expected, false)
-WebUI.closeBrowser()
+
+//WebUI.verifyMatch(actual, expected, false)
+
+//WebUI.closeBrowser()
 
