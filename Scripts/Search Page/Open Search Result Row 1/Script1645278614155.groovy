@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Sub Wikipedia/a_Result Search Row 1'))
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.verifyElementVisible(findTestObject('Sub Wikipedia/Verify Element/lbl_Result Search Row 1'))
+WebUI.verifyElementVisible(findTestObject('Sub Wikipedia/Verify Element/lbl_Result Search'))
 
 WebUI.delay(2)
 
